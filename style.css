@@ -1,0 +1,78 @@
+html,body{
+    /* Background */
+    background-image:url(images/yoga.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    /* Center the content */
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-display:inherit;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p.text-head {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 52px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow:5px 5px 5px #7ba1c5de;
+}
+
+li{
+    float:left;
+  }
+
+  
+ul{
+    list-style-type: none;
+    margin: 5;
+    /* padding: 5; */
+    overflow:-moz-hidden-unscrollable;
+} 
+
+.link1{
+    margin-right: 4rem;
+}
+
+.link2{
+    margin-right: 4rem;
+}
+
+.link3{
+    margin-right:4rem;
+}
+
+.link1 a,
+.link2 a,
+.link3 a{
+    display: inline-block;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:x-large;
+    color:rgb(55, 57, 62);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #d0d7decd;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  li a:hover {
+    background-color: #f1eeee;
+}
+  
+.div2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
